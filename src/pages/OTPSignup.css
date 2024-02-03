@@ -1,0 +1,50 @@
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Jost' , sans-serif;
+   margin-top: -15vh;
+   gap: 8vw;
+}
+
+.login-box {
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #dad9d9;
+    border-radius: 2px;
+}
+
+.button {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    background-color: #3E97FF;
+    color:rgb(16, 16, 16);
+    transition: background-color 0.3s ease;
+    border-radius: 2px;
+    border: 1px solid rgb(45, 44, 44); /* Separate the border property and add 'solid' */
+    font-family: 'Jost', sans-serif;
+    font-size: 1.4vw;
+}
+
+.button:hover{
+    background-color: #101155;
+    color: white;
+    cursor: pointer;
+}
+.otp{
+    font-size: 15px;
+}
+
+.forgot{
+    align-items: end;
+   margin-left: 17vw;
+    justify-content: end;
+    font-size: 13px;
+    color:#3E97FF;
+    margin-bottom: 5%;
+}
+.forgot:hover{
+    text-decoration: underline;
+}

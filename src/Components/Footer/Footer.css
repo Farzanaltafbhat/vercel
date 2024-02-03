@@ -1,0 +1,40 @@
+
+/* Footer.css */
+
+.footer {
+    background-color: #3E97FF;
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+    position: relative;
+    width: 100%;
+ 
+  }
+  
+  .page-links {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .page-links ul {
+    list-style-type: none;
+    padding: 0;;
+    margin: 0;
+  }
+  
+  .page-links li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .page-links a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .logo img {
+    max-width: 100%;
+   margin-bottom: 50px;
+  }

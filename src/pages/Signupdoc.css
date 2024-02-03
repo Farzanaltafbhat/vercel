@@ -1,0 +1,89 @@
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 100vh;
+    font-family: 'Jost', sans-serif;
+    margin-top: -30vh !important;
+    gap: 8vw;
+    font-family: jost,sans-serif;
+}
+
+.login-box {
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #dad9d9;
+    border-radius: 2px;
+    position: relative; /* Add relative positioning */
+  
+}
+
+.upperpart {
+   
+        position: absolute;
+        top: 10px;
+        left: 0;
+        right: 0;
+        border-bottom: 1px solid #dad9d9;
+        margin-bottom: 10px;
+        
+
+}
+
+.button {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+
+    color: white;
+    transition: background-color 0.3s ease;
+    border-radius: 2px;
+    border: 1px #3e97ff !important ;
+    font-family: 'Jost', sans-serif;
+    font-size: 1.4vw;
+    background-color: #3e97ff !important;
+}
+
+.button:hover {
+    background-color: #101155;
+    color: white;
+    cursor: pointer;
+}
+
+.otp {
+    font-size: 15px;
+}
+
+.forgot:hover {
+    text-decoration: underline;
+}
+
+.country {
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+}
+
+.input {
+    margin-bottom: 1rem;
+    padding-left: -30%;
+    width: 80%;
+
+}
+
+
+.lowerpart{
+    padding-top: 2rem;
+
+}
+
+
+.joinget{
+    margin-left: 20px;
+}
+.notadoc{
+    color: #3e97ff;
+    margin-left: 70%;
+    min-width: 100%;
+    font-size: 13px;
+}
