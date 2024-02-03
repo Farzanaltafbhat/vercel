@@ -4,7 +4,7 @@
     margin-top: 10px;
     min-width: 100%;
     position: relative;
-    margin-left: -45%;
+    margin-left: 6vw;
   }
   .menu {
     display: flex;
@@ -93,7 +93,7 @@
     border:1px solid black;
     justify-content: center;
     border-radius: 3px;
-    margin-right: 3vw;
+    margin-right: 6vw;
     width: 135px; 
     transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
   }
