@@ -1,0 +1,51 @@
+/* CardsContainer.css */
+.cards-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    flex-wrap: wrap; /* Allow cards to wrap to the next line if needed */
+}
+
+.card {
+    width: 200px;
+    margin: 1px; /* Add margin to create space between cards */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    background-color: #fff;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.card-heading {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.card-description {
+    font-size: 14px;
+    color: #0ab0f1;
+    text-align: left;
+    cursor: pointer;
+}
+
+/* Adjust the width of the container to accommodate all cards in a row */
+@media (max-width: 1024px) {
+    .cards-container {
+        width: 100%;
+    }
+}

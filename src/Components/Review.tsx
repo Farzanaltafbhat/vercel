@@ -1,9 +1,10 @@
-
+import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import './Review.css'; // Include your CSS file
-
+import { SampleNextArrow } from './Arrow';
+import { SamplePrevArrow } from './Arrow';
 
 const reviews = [
   {
@@ -38,7 +39,8 @@ const ReviewCarousel = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
-  
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />,
   };
 
   return (

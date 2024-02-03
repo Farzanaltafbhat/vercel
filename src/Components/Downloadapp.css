@@ -1,0 +1,111 @@
+/* DownloadApp.css */
+.download-app-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2vw;
+  }
+  
+  .app-image-container {
+    animation: bounce 3s infinite alternate; /* Add bouncing animation */
+    position: relative;
+    margin-left: -10vw;
+  }
+  
+  .app-image {
+    width: 40vw;
+    border-radius: 50%; /* Make the image circular */
+    position: relative;
+    overflow: hidden;
+  }
+  .shadow-below {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%; /* Adjust the width of the shadow */
+    height: 10px; /* Adjust the height of the shadow */
+    background: rgba(0, 0, 0, 0.2); /* Shadow color and opacity */
+    border-radius: 50%; /* Make the shadow circular */
+    transition: bottom 0.3s ease-in-out; /* Add transition for smooth effect */
+  }
+  
+  .app-image:hover .shadow-below {
+    bottom: -9vw; /* Adjust the distance of the shadow on hover */
+  }
+  .download-info{
+    margin-top: -8vw;
+    margin-left: -13vw;
+  }
+  
+  .download-info h1 {
+    font-weight: bold;
+    font-size: 3vw;
+    text-align: left;
+    max-width: 40vw;
+  }
+  .download-info p {
+    text-align: left;
+    max-width: 40vw;
+    font-size: 1.5vw;
+    margin-top: 2vw;
+  }
+  .download-info h3{
+    max-width: 40vw;
+    font-size: 2vw;
+    margin-top: 6vw;
+    font-weight: 600;
+  }
+  
+  
+  .sms-link-container {
+    margin-top: 20px;
+    display: flex;
+
+  }
+  
+  .input {
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    font-size: 16px;
+    height: 4vw;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 1vw;
+  }
+  
+  .app-store-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .app-store-button img {
+    width: 150px;
+  }
+  
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-10px); /* Adjust bounce height as needed */
+    }
+    60% {
+      transform: translateY(-5px); /* Adjust bounce height as needed */
+    }
+  }
+  .text{
+  align-items: center;
+  }
