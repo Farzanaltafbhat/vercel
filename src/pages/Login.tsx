@@ -1,6 +1,3 @@
-// Login.js (assuming this is the name of your component file)
-
-import React from 'react';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import './Login.css'; // Import your CSS file

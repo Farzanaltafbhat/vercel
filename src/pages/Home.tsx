@@ -1,4 +1,4 @@
-import React from 'react'
+
 import './Home.css'
 import '../assets/images/location.png';
 import location from '../assets/images/location.png'

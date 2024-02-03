@@ -1,4 +1,3 @@
-import React from "react";
 import { TECarousel, TECarouselItem } from "tw-elements-react";
 import HeartHealth from '../../assets/images/HeartHealth.png'
 import healthcare from '../../assets/images/healthcare.png'
