@@ -1,58 +1,14 @@
 import React from 'react'
 import './Home.css'
 import '../assets/images/location.png';
-import healthcare from '../assets/images/healthcare.png'
 import location from '../assets/images/location.png'
 import Banner from './Carousel/Banner';
 import Card from './Cards/Cards';
 import Cards from './Cards/Cards1'
-import dental from '../assets/images/dental.png';
-import preg from '../assets/images/preg.png';
-import child from '../assets/images/child.png';
-import nutrition from '../assets/images/nutrition.png';
-import physio from '../assets/images/physio.png';
-import physician from '../assets/images/physician.png';
-import ortho from '../assets/images/ortho.png';
-import Slider from '../pages/Carousel/cardscarousel';
+import Slider from './Carousel/cardscarousel';
 import ReviewCarousel from '../Components/Review'
 const Home = () => {
-  const cards = [
-    {
-      image: dental,
-      heading: 'Dentist',
-      description: 'Teething troubles? Schedule a dental checkup',
-    },
-    {
-      image: preg,
-      heading: 'Gynecologist',
-      description: 'For womens pregnancy and infertility treatments',
-    },
-    {
-      image: child,
-      heading: 'Pediatrician',
-      description: 'Child specialists and doctors for infant',
-    },
-    {
-      image: nutrition,
-      heading: 'Dietition/Nutrition',
-      description: 'Get guidance on eating right and get your diet plans',
-    },
-    {
-      image: physio,
-      heading: 'Physiotherapist',
-      description: 'Pulled a muscle? Get a Physiotherapist.',
-    },
-    {
-      image: physician,
-      heading: 'General Physician',
-      description: 'Find the right family doctor in your neighbourhood',
-    },
-    {
-      image: ortho,
-      heading: 'Orthopedist',
-      description: 'For bones and joint issues get Orthopedist',
-    },
-  ];
+
   return (
     <>
     <div className='input-wrapper'>

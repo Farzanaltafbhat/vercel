@@ -1,11 +1,11 @@
 
 
-import React from 'react';
+
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import './OTPSignup.css'; // Import your CSS file
 import register from '../assets/images/register.png'
-import { Link } from 'react-router-dom';
+
 function Login() {
     return (
         <div className="form-container">

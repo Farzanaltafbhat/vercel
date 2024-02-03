@@ -1,6 +1,5 @@
-import React from 'react';
+
 import { Link, NavLink } from 'react-router-dom';
-import userImg from '../../assets/images/avatar-icon.png'
 import logo from "../../assets/images/logo.png";
 import Forproviders from './Forproviders';
 import './Header.css';
