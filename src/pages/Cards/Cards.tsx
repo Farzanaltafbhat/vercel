@@ -1,11 +1,11 @@
-
+import React from 'react';
 import './Cards.css'; // Import your CSS file for styling
 import lab from '../../assets/images/lab.png'
 import doc from '../../assets/images/doc.png'
 import iphone from '../../assets/images/iphone.png'
 
 const Cards = () => {
-  const handleButtonClick = (title: string) => {
+  const handleButtonClick = (title) => {
     // Implement your action when a card is clicked
     console.log(`${title} button clicked`);
   };

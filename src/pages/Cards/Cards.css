@@ -1,11 +1,14 @@
 .cards-container {
+
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
     align-items: center;
     padding-bottom: 10%;
     width: 100%;
+    gap: -10vw !important;
+    margin-left: 0.5vw !important;
 
   }
   
@@ -13,7 +16,7 @@
   
   .card-image1 {
     width: 100%;
-    height: 60%;
+    height: 55%;
     object-fit: cover;
    background: #D9D9D9;
 
@@ -21,12 +24,13 @@
   
   .card-content {
     padding: 16px;
-    text-align: center;
+    text-align: start;
   }
   
   .card-title {
     font-size: 1.5em;
     margin-bottom: 8px;
+    text-align: start;
   }
   
   .card-description {
@@ -35,11 +39,11 @@
   }
   .card1 {
     border: 1px solid #ccc;
-    border-radius: 10px;
+    border-radius: 20px;
     overflow: hidden; /* Consider removing this line if not necessary for your design */
     margin: 16px;
-    width: 220px;
-    height: 100%;
+    width: 250px;
+    height: 300px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
@@ -53,12 +57,11 @@
   }
   .card2 {
     border: 1px solid #ccc;
-    border-radius: 10px;
+    border-radius: 20px;
     overflow: hidden; /* Consider removing this line if not necessary for your design */
     margin: 16px;
-    width: 220px;
-    padding:20px
-    height: 100%;
+    width: 250px;
+    height: 300px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
@@ -73,12 +76,11 @@
   }
   .card3 {
     border: 1px solid #ccc;
-    border-radius: 10px;
+    border-radius: 20px;
     overflow: hidden; /* Consider removing this line if not necessary for your design */
     margin: 16px;
-    padding-top: 20px;
-    width: 220px;
-    height: 100%;
+    width: 250px;
+    height: 300px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
@@ -93,7 +95,7 @@
   }
   .card-image3 {
     width: 100%;
-    height: 60%;
+    height: 55%;
     object-fit: cover;
 
     
@@ -101,7 +103,7 @@
   
   .card-image2 {
     width: 100%;
-    height: 60%;
+    height: 55%;
     object-fit: cover;
     background-color: #B5D7FF;
   }
